@@ -3,7 +3,7 @@ import pandas as pd
 
 
 #Obtain the list of available recipes and their ingredients along with their priority
-dishes_df = pd.read_csv(filepath_or_buffer = '/Users/Dir1/Dir2/Dir3/Food.csv')
+dishes_df = pd.read_csv(filepath_or_buffer = '/Food.csv') #Enter the pathname to your food CSV file
 #Columns - "Recipe", "Ingredient", "Priority"
 
 #Asking for user to input a list of ingredients they possess
